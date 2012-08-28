@@ -26,7 +26,7 @@ The following operators can be used:
 
 You can use parenthesis too.
 
-You can compare 2 arithmetic expression with a combinaison of following operators :
+You can compare 2 arithmetics expressions with a combinaison of following operators :
 * <
 * >
 * =

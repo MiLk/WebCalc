@@ -4,9 +4,9 @@ var http = require('http')
 var calc = function (arithmetic) {
   var result = "NaN";
   try {
-    result = eval(arithmetic.replace(/[^0-9\.\+\*\-\/\(\)]/g, ""));
+    result = eval(arithmetic.replace(/[^0-9\.\%\+\*\-\/\(\)\<\>\=!]/g, ""));
    } catch (e) { }
-   return result || "NaN";
+   return result;
 };
 
 http.createServer(function (req, res) {

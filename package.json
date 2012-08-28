@@ -1,0 +1,16 @@
+{
+  "name": "webcalc",
+  "version": "0.0.1",
+  "description": "Web Calculator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/MiLk/WebCalc.git"
+  },
+  "author": "Emilien Kenler <hello@emilienkenler.com> (http://www.emilienkenler.com)",
+  "license": "BSD"
+}
